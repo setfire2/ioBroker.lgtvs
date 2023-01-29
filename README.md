@@ -1,6 +1,6 @@
 ![Logo](admin/lgtv.png)
 # ioBroker.lgtvs
-
+<!---
 ![Number of Installations](http://iobroker.live/badges/lgtv-installed.svg) ![Number of Installations](http://iobroker.live/badges/lgtv-stable.svg) [![NPM version](http://img.shields.io/npm/v/iobroker.lgtv.svg)](https://www.npmjs.com/package/iobroker.lgtv)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.lgtv.svg)](https://www.npmjs.com/package/iobroker.lgtv)
 
@@ -8,7 +8,7 @@
 
 **Tests:** Linux/Mac: [![Travis-CI](https://travis-ci.org/SebastianSchultz/ioBroker.lgtv.svg?branch=master)](https://travis-ci.org/SebastianSchultz/ioBroker.lgtv)
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/xx55hgsuff4fas47/branch/master?svg=true)](https://ci.appveyor.com/project/SebastianSchultz/iobroker-lgtv/branch/master)
-
+-->
 
 
 
