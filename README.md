@@ -1,5 +1,5 @@
 ![Logo](admin/lgtv.png)
-# ioBroker.lgtv
+# ioBroker.lgtvs
 
 ![Number of Installations](http://iobroker.live/badges/lgtv-installed.svg) ![Number of Installations](http://iobroker.live/badges/lgtv-stable.svg) [![NPM version](http://img.shields.io/npm/v/iobroker.lgtv.svg)](https://www.npmjs.com/package/iobroker.lgtv)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.lgtv.svg)](https://www.npmjs.com/package/iobroker.lgtv)
@@ -13,7 +13,7 @@ Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/xx55hgsuff4fas
 
 
 
-LG WebOS SmartTV adapter for ioBroker
+LG WebOS SmartTV adapter for ioBroker with SSL support
 
 Remote controlling an LG WebOS SmartTV (2013 models and higher) from [ioBroker](https://www.iobroker.net).
 
