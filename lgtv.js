@@ -347,7 +347,7 @@ function startAdapter(options){
 }
 
 function connect(cb){
-    hostUrl = 'ws://' + adapter.config.ip + ':3000' 
+    hostUrl = 'wss://' + adapter.config.ip + ':3001' 
     let reconnect = adapter.config.reconnect
     if (!reconnect || isNaN(reconnect) || reconnect < 5000)
         reconnect= 5000;
@@ -358,6 +358,15 @@ function connect(cb){
         clientKey: clientKey,
         saveKey:   (key, cb) => {
             fs.writeFile(keyfile, key, cb)
+        },
+        wsconfig: {
+            keepalive: true,
+            keepaliveInterval: 10000,
+            dropConnectionOnKeepaliveTimeout: true,
+            keepaliveGracePeriod: 5000,
+            tlsOptions: {
+                rejectUnauthorized: false
+            }
         }
     });
     lgtvobj.on('connecting', (host) => {
